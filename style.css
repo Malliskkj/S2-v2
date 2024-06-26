@@ -33,7 +33,7 @@ body, html {
     display: flex; /* Adicionar para usar flexbox */
     align-items: center;
     justify-content: center;
-    transition: opacity 0.5s ease; /* Adicionar transição para o fade-out */
+    transition: opacity 4s ease; /* Adicionar transição para o fade-out */
 }
 
 #blackOverlay.hidden {
