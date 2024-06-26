@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S2 S2 S2</title>
+</head>
+<body>
+    <!-- Fundo preto -->
+    <div id="blackOverlay"></div>
+
+    <!-- Elemento de áudio -->
+    <audio id="audioPlayer">
+        <source src="audio/mac miller31.mp3" type="audio/mpeg"> <!-- Substitua com o caminho da sua música -->
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="scene">
+        <div class="cube" id="mainCube">
+            <!-- Faces visíveis -->
+            <div class="cube__face cube__face--front"></div>
+            <div class="cube__face cube__face--back"></div>
+            <div class="cube__face cube__face--right"></div>
+            <div class="cube__face cube__face--left"></div>
+            <div class="cube__face cube__face--top"></div>
+            <div class="cube__face cube__face--bottom"></div>
+            <!-- Faces internas (invisíveis) -->
+            <div class="cube__face cube__face--interior-front"></div>
+            <div class="cube__face cube__face--interior-back"></div>
+            <div class="cube__face cube__face--interior-right"></div>
+            <div class="cube__face cube__face--interior-left"></div>
+            <div class="cube__face cube__face--interior-top"></div>
+            <div class="cube__face cube__face--interior-bottom"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Importa o arquivo JavaScript externo -->
+</body>
+</html>
